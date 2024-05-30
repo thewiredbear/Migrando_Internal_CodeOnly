@@ -1,15 +1,16 @@
 pandas
 numpy
 matplotlib
-scikit-learn==1.4.0
+scikit-learn
 graphviz
-pycaret
+pycaret==3.3.0
 category_encoders
 modelbit
 python-box==6.0.2
 ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
-Jinja2==3.1.2
+Jinja2==3.1.4
 PyYAML
-
+httpx
+-e .

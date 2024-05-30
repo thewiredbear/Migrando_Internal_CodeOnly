@@ -1,6 +1,8 @@
+artifacts_root: artifacts
 
 
 
 
 data_ingestion:
-  root_dir: data/shortCleanData.csv
+  root_dir: artifacts/data_ingestion
+  source_URL:  /Users/hassanraufbutt/Desktop/migrando/Migrando_Internal_CodeOnly/data/shortCleanData.csv

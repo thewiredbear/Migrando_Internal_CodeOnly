@@ -13,9 +13,9 @@ class DataIngestion:
         self.config = config
 
     def read_file(self):
-        if not os.path.exists(self.config.root_dir):
-            df = pd.read_csv(self.config.root_dir)
-            df.head(2)
+        print(self.config.source_URL)
+        if os.path.exists(self.config.source_URL):
+            df = pd.read_csv(self.config.source_URL)
             return df
         else:
             logger.info(f"Unable to read the file")  
